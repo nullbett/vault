@@ -95,7 +95,7 @@ jobs:
 
   build-ui:
     name: UI
-    runs-on: custom-linux-xl-vault-latest
+    runs-on: ubuntu-latest
     outputs:
       cache-key: ui-${{ steps.ui-hash.outputs.ui-hash }}
     steps:
